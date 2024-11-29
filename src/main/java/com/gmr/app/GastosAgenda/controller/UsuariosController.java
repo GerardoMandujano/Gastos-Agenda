@@ -51,7 +51,7 @@ public class UsuariosController {
 	
 	@ApiOperation(value = "url para buscar usuario por clave")
 	 @RequestMapping(value = "/buscar/{cveUsuario}", method = RequestMethod.GET)
-	public  ResponseEntity<ResponseDto> buscarUsuario(@PathParam("cveUsuario") String cveUsuario){
+	public  ResponseEntity<ResponseDto> buscarUsuarioa(@PathParam("cveUsuario") String cveUsuario){
 			ResponseDto response = new ResponseDto();
 
 		 return new ResponseEntity<>(response,HttpStatus.OK);
