@@ -29,7 +29,7 @@ public class UsuariosController {
 	
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public ResponseEntity<ResponseDto> obtenerUsuariosaess(
+	public ResponseEntity<ResponseDto> obtenerUsuariosae(
 			@RequestParam("idUsuario")String idUsuario 
 			){
 		ResponseDto response = new ResponseDto();
