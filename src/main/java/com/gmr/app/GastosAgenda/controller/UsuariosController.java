@@ -25,7 +25,7 @@ import io.swagger.annotations.ApiResponses;
 @RestController
 @RequestMapping("ms-usuarios/v1/usuarios")
 public class UsuariosController {	
-	//squ_bd0a0c713c3bcc3cb93c4d56304fb750d09739c1ss
+	//squ_bd0a0c713c3bcc3cb93c4d56304fb750d09739c1ssaa
 	
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
